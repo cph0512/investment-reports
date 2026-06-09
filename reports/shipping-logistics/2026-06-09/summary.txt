@@ -1,0 +1,10 @@
+航運物流股日報 2026-06-09
+
+重點：
+• 上游 deep research 今日失敗；已依規定標示 stale/failed，改以 TWSE/TPEx OpenAPI、SEC EDGAR/Companyfacts 與產業來源快速補查。
+• 最新官方月營收仍以 2026-04 為主；年增較高者：2611 志信 YoY +119.47%、2606 裕民 YoY +38.67%、5607 遠雄港 YoY +35.13%。
+• 美股部分已補 SEC 最新 filings 與 Companyfacts 可自動擷取之最近營收；外國航運發行人 IFRS/6-K 可能缺標準 XBRL 營收。
+• 產業面本日以運價（FBX/WCI）、乾散貨（Baltic）與空運需求/燃油作為報告角度；部分指標頁面有反爬或訂閱限制，避免填入未核實數值。
+
+PDF：PLACEHOLDER_URL
+以上為公開資訊整理，非投資建議。
