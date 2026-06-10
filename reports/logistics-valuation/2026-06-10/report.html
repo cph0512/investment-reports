@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>物流估值比較：P/E、P/S 與佐證數據</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;font-family:"PingFang TC","Heiti TC","Noto Sans TC","Microsoft JhengHei",Arial,sans-serif;background:#f4f7fb;color:#172033;font-size:15px;line-height:1.6}.wrap{max-width:1180px;margin:0 auto;padding:26px 18px 44px}.hero{background:linear-gradient(135deg,#0b4b82,#13a6d8);color:#fff;border-radius:24px;padding:28px 32px;margin-bottom:18px;box-shadow:0 8px 24px rgba(5,70,120,.24)}h1{font-size:34px;margin:0 0 8px;letter-spacing:.02em}h2{font-size:23px;color:#0f3b66;margin:24px 0 12px}h3{font-size:17px;margin:4px 0 8px}.meta{opacity:.92}.note{background:#fff;border:1px solid #e2e9f3;border-radius:18px;padding:16px 18px;margin:12px 0;box-shadow:0 2px 8px rgba(42,67,101,.06)}.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.card{background:#fff;border:1px solid #e2e9f3;border-radius:18px;padding:14px 15px;box-shadow:0 2px 8px rgba(42,67,101,.08)}.card.risk{border-left:6px solid #ef4444}.card.warn{border-left:6px solid #f97316}.card.neutral{border-left:6px solid #3b82f6}.badge{display:inline-block;background:#e8f1ff;color:#114b88;border-radius:999px;padding:3px 9px;font-size:12px;font-weight:700;margin-bottom:6px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px}.stat{background:#f8fafc;border-radius:11px;padding:7px}.stat span{display:block;color:#64748b;font-size:12px}.stat strong{font-size:15px}ul{margin:6px 0 0 20px;padding:0}li{margin:5px 0}table{width:100%;border-collapse:separate;border-spacing:0;background:#fff;border:1px solid #dbe6f2;border-radius:18px;overflow:hidden;box-shadow:0 2px 8px rgba(42,67,101,.08);font-size:13px}th{background:#1f4e78;color:#fff;text-align:left;padding:9px 8px;position:sticky;top:0}td{padding:8px;border-bottom:1px solid #eef2f7;vertical-align:top}td span{color:#64748b;font-size:12px}td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}tr.risk td:nth-child(4){background:#fde8e8;color:#991b1b;font-weight:700}tr.warn td:nth-child(4){background:#fff3e6;color:#9a3412;font-weight:700}a{color:#075ba8}.footer{margin-top:20px;color:#64748b;font-size:12px}.pill{display:inline-block;border-radius:999px;padding:2px 8px;background:#eef6ff;color:#0b4b82;font-size:12px;margin-left:6px}@media(max-width:900px){.grid{grid-template-columns:1fr 1fr}table{font-size:12px}.wrap{padding:16px 10px}}@media(max-width:640px){.grid{grid-template-columns:1fr}.hero{padding:22px 20px}h1{font-size:28px}.table-wrap{overflow-x:auto}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>物流估值比較：P/E、P/S 與佐證數據</h1>
+    <div class="meta">報告日期：2026-06-10｜資料來源：Yahoo Finance / yfinance｜用途：投資人討論用初稿，非投資建議</div>
+  </div>
+
+  <section>
+    <h2>一句話結論</h2>
+    <div class="note">
+      <ul>
+        <li>本表用 <b>Trailing P/E = 最新股價 ÷ 過去十二個月 EPS</b> 排序，並附 Forward P/E、P/S、市值、TTM 營收、營業利潤率作交叉檢查。</li>
+        <li>高 P/E 不一定代表比較好：可能是市場定價成長，也可能只是短期 EPS 低檔造成分母偏小。</li>
+        <li>台灣比較組中，遠雄港、立益物流、台灣大車隊的 P/S 偏高；中菲行、台驊 P/E/P/S 相對低，但仍要看運價循環、毛利率與現金股利。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>最高 P/E 前五名</h2>
+    <div class="grid">
+      <article class="card risk"><span class="badge">#1｜9147.T</span><h3>Nippon Express</h3><div class="stats"><div class="stat"><span>P/E</span><strong>470.3x</strong></div><div class="stat"><span>Forward P/E</span><strong>8.2x</strong></div><div class="stat"><span>P/S</span><strong>0.48x</strong></div><div class="stat"><span>營業利潤率</span><strong>—</strong></div></div></article>
+      <article class="card risk"><span class="badge">#2｜HLAG.DE</span><h3>Hapag-Lloyd</h3><div class="stats"><div class="stat"><span>P/E</span><strong>83.7x</strong></div><div class="stat"><span>Forward P/E</span><strong>—</strong></div><div class="stat"><span>P/S</span><strong>1.17x</strong></div><div class="stat"><span>營業利潤率</span><strong>—</strong></div></div></article>
+      <article class="card risk"><span class="badge">#3｜XPO</span><h3>XPO</h3><div class="stats"><div class="stat"><span>P/E</span><strong>75.4x</strong></div><div class="stat"><span>Forward P/E</span><strong>36.5x</strong></div><div class="stat"><span>P/S</span><strong>3.12x</strong></div><div class="stat"><span>營業利潤率</span><strong>—</strong></div></div></article>
+      <article class="card risk"><span class="badge">#4｜LSTR</span><h3>Landstar</h3><div class="stats"><div class="stat"><span>P/E</span><strong>61.6x</strong></div><div class="stat"><span>Forward P/E</span><strong>31.4x</strong></div><div class="stat"><span>P/S</span><strong>1.58x</strong></div><div class="stat"><span>營業利潤率</span><strong>—</strong></div></div></article>
+      <article class="card risk"><span class="badge">#5｜DSV.CO</span><h3>DSV</h3><div class="stats"><div class="stat"><span>P/E</span><strong>51.0x</strong></div><div class="stat"><span>Forward P/E</span><strong>17.9x</strong></div><div class="stat"><span>P/S</span><strong>1.34x</strong></div><div class="stat"><span>營業利潤率</span><strong>—</strong></div></div></article>
+    </div>
+  </section>
+
+  <section>
+    <h2>台灣重點比較組</h2>
+    <div class="grid">
+      <article class="card neutral"><span class="badge">5607.TW</span><h3>遠雄港</h3><p>港口/自由貿易港區</p><div class="stats"><div class="stat"><span>P/E</span><strong>19.3x</strong></div><div class="stat"><span>P/S</span><strong>4.44x</strong></div><div class="stat"><span>股價</span><strong>53.50</strong></div><div class="stat"><span>EPS</span><strong>2.77</strong></div></div></article>
+      <article class="card neutral"><span class="badge">1443.TW</span><h3>立益物流</h3><p>物流/倉儲</p><div class="stats"><div class="stat"><span>P/E</span><strong>23.4x</strong></div><div class="stat"><span>P/S</span><strong>3.76x</strong></div><div class="stat"><span>股價</span><strong>26.40</strong></div><div class="stat"><span>EPS</span><strong>1.13</strong></div></div></article>
+      <article class="card neutral"><span class="badge">2640.TWO</span><h3>台灣大車隊</h3><p>叫車/車隊平台</p><div class="stats"><div class="stat"><span>P/E</span><strong>17.6x</strong></div><div class="stat"><span>P/S</span><strong>2.93x</strong></div><div class="stat"><span>股價</span><strong>158.00</strong></div><div class="stat"><span>EPS</span><strong>8.98</strong></div></div></article>
+      <article class="card neutral"><span class="badge">5609.TWO</span><h3>中菲行</h3><p>國際貨代</p><div class="stats"><div class="stat"><span>P/E</span><strong>10.5x</strong></div><div class="stat"><span>P/S</span><strong>0.39x</strong></div><div class="stat"><span>股價</span><strong>83.00</strong></div><div class="stat"><span>EPS</span><strong>7.94</strong></div></div></article>
+      <article class="card neutral"><span class="badge">2636.TW</span><h3>台驊投控</h3><p>國際貨代</p><div class="stats"><div class="stat"><span>P/E</span><strong>9.1x</strong></div><div class="stat"><span>P/S</span><strong>0.48x</strong></div><div class="stat"><span>股價</span><strong>70.30</strong></div><div class="stat"><span>EPS</span><strong>7.74</strong></div></div></article>
+    </div>
+  </section>
+
+  <section>
+    <h2>完整排名表</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>#</th><th>公司</th><th>類型</th><th>P/E</th><th>Forward P/E</th><th>P/S</th><th>股價</th><th>EPS</th><th>市值</th><th>TTM 營收</th><th>來源</th></tr></thead>
+        <tbody>
+          <tr class="risk"><td>1</td><td><b>Nippon Express</b><br><span>9147.T</span></td><td>日本物流</td><td class="num">470.3x</td><td class="num">8.2x</td><td class="num">0.48x</td><td class="num">5,065.00</td><td class="num">10.77</td><td class="num">1.23T</td><td class="num">2.58T</td><td><a href="https://finance.yahoo.com/quote/9147.T/key-statistics/">Yahoo</a></td></tr>
+          <tr class="risk"><td>2</td><td><b>Hapag-Lloyd</b><br><span>HLAG.DE</span></td><td>貨櫃航運</td><td class="num">83.7x</td><td class="num">—</td><td class="num">1.17x</td><td class="num">118.80</td><td class="num">1.42</td><td class="num">20.88B</td><td class="num">17.78B</td><td><a href="https://finance.yahoo.com/quote/HLAG.DE/key-statistics/">Yahoo</a></td></tr>
+          <tr class="risk"><td>3</td><td><b>XPO</b><br><span>XPO</span></td><td>北美貨運/物流</td><td class="num">75.4x</td><td class="num">36.5x</td><td class="num">3.12x</td><td class="num">219.51</td><td class="num">2.91</td><td class="num">25.77B</td><td class="num">8.30B</td><td><a href="https://finance.yahoo.com/quote/XPO/key-statistics/">Yahoo</a></td></tr>
+          <tr class="risk"><td>4</td><td><b>Landstar</b><br><span>LSTR</span></td><td>北美貨運平台</td><td class="num">61.6x</td><td class="num">31.4x</td><td class="num">1.58x</td><td class="num">222.82</td><td class="num">3.62</td><td class="num">7.56B</td><td class="num">4.78B</td><td><a href="https://finance.yahoo.com/quote/LSTR/key-statistics/">Yahoo</a></td></tr>
+          <tr class="risk"><td>5</td><td><b>DSV</b><br><span>DSV.CO</span></td><td>全球貨代/物流</td><td class="num">51.0x</td><td class="num">17.9x</td><td class="num">1.34x</td><td class="num">1,549.50</td><td class="num">30.36</td><td class="num">369.66B</td><td class="num">276.07B</td><td><a href="https://finance.yahoo.com/quote/DSV.CO/key-statistics/">Yahoo</a></td></tr>
+          <tr class="warn"><td>6</td><td><b>J.B. Hunt</b><br><span>JBHT</span></td><td>北美卡車/複合運輸</td><td class="num">44.2x</td><td class="num">30.9x</td><td class="num">2.21x</td><td class="num">284.11</td><td class="num">6.43</td><td class="num">26.79B</td><td class="num">12.13B</td><td><a href="https://finance.yahoo.com/quote/JBHT/key-statistics/">Yahoo</a></td></tr>
+          <tr class="warn"><td>7</td><td><b>GXO</b><br><span>GXO</span></td><td>合約物流/倉儲</td><td class="num">43.5x</td><td class="num">13.9x</td><td class="num">0.42x</td><td class="num">48.68</td><td class="num">1.12</td><td class="num">5.60B</td><td class="num">13.50B</td><td><a href="https://finance.yahoo.com/quote/GXO/key-statistics/">Yahoo</a></td></tr>
+          <tr class="warn"><td>8</td><td><b>Yamato Holdings</b><br><span>9064.T</span></td><td>日本宅配/物流</td><td class="num">41.9x</td><td class="num">16.7x</td><td class="num">0.31x</td><td class="num">1,805.00</td><td class="num">43.05</td><td class="num">571.60B</td><td class="num">1.87T</td><td><a href="https://finance.yahoo.com/quote/9064.T/key-statistics/">Yahoo</a></td></tr>
+          <tr class="warn"><td>9</td><td><b>C.H. Robinson</b><br><span>CHRW</span></td><td>貨代/3PL</td><td class="num">38.2x</td><td class="num">25.7x</td><td class="num">1.38x</td><td class="num">188.91</td><td class="num">4.94</td><td class="num">22.27B</td><td class="num">16.20B</td><td><a href="https://finance.yahoo.com/quote/CHRW/key-statistics/">Yahoo</a></td></tr>
+          <tr class="warn"><td>10</td><td><b>Kuehne+Nagel</b><br><span>KNIN.SW</span></td><td>全球貨代</td><td class="num">27.5x</td><td class="num">22.0x</td><td class="num">0.96x</td><td class="num">193.00</td><td class="num">7.03</td><td class="num">22.92B</td><td class="num">23.75B</td><td><a href="https://finance.yahoo.com/quote/KNIN.SW/key-statistics/">Yahoo</a></td></tr>
+          <tr class="warn"><td>11</td><td><b>Expeditors</b><br><span>EXPD</span></td><td>國際貨代</td><td class="num">26.6x</td><td class="num">24.1x</td><td class="num">1.93x</td><td class="num">164.65</td><td class="num">6.19</td><td class="num">21.53B</td><td class="num">11.19B</td><td><a href="https://finance.yahoo.com/quote/EXPD/key-statistics/">Yahoo</a></td></tr>
+          <tr class="warn"><td>12</td><td><b>志信</b><br><span>2611.TW</span></td><td>運輸/物流</td><td class="num">26.5x</td><td class="num">—</td><td class="num">3.04x</td><td class="num">13.80</td><td class="num">0.52</td><td class="num">2.61B</td><td class="num">857.54M</td><td><a href="https://finance.yahoo.com/quote/2611.TW/key-statistics/">Yahoo</a></td></tr>
+          <tr class="warn"><td>13</td><td><b>Maersk</b><br><span>MAERSK-B.CO</span></td><td>貨櫃航運</td><td class="num">26.2x</td><td class="num">—</td><td class="num">幣別需校正</td><td class="num">18,215.00</td><td class="num">694.66</td><td class="num">264.03B</td><td class="num">53.64B</td><td><a href="https://finance.yahoo.com/quote/MAERSK-B.CO/key-statistics/">Yahoo</a></td></tr>
+          <tr class="warn"><td>14</td><td><b>Hub Group</b><br><span>HUBG</span></td><td>北美複合運輸</td><td class="num">25.5x</td><td class="num">22.2x</td><td class="num">0.73x</td><td class="num">44.38</td><td class="num">1.74</td><td class="num">2.71B</td><td class="num">3.73B</td><td><a href="https://finance.yahoo.com/quote/HUBG/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>15</td><td><b>立益物流</b><br><span>1443.TW</span></td><td>物流/倉儲</td><td class="num">23.4x</td><td class="num">—</td><td class="num">3.76x</td><td class="num">26.40</td><td class="num">1.13</td><td class="num">3.57B</td><td class="num">950.52M</td><td><a href="https://finance.yahoo.com/quote/1443.TW/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>16</td><td><b>遠雄港</b><br><span>5607.TW</span></td><td>港口/自由貿易港區</td><td class="num">19.3x</td><td class="num">17.7x</td><td class="num">4.44x</td><td class="num">53.50</td><td class="num">2.77</td><td class="num">19.82B</td><td class="num">4.46B</td><td><a href="https://finance.yahoo.com/quote/5607.TW/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>17</td><td><b>中櫃</b><br><span>2613.TW</span></td><td>貨櫃場/物流</td><td class="num">19.3x</td><td class="num">—</td><td class="num">0.88x</td><td class="num">21.95</td><td class="num">1.14</td><td class="num">3.01B</td><td class="num">3.42B</td><td><a href="https://finance.yahoo.com/quote/2613.TW/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>18</td><td><b>台灣大車隊</b><br><span>2640.TWO</span></td><td>叫車/車隊平台</td><td class="num">17.6x</td><td class="num">—</td><td class="num">2.93x</td><td class="num">158.00</td><td class="num">8.98</td><td class="num">9.36B</td><td class="num">3.20B</td><td><a href="https://finance.yahoo.com/quote/2640.TWO/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>19</td><td><b>FedEx</b><br><span>FDX</span></td><td>快遞/物流</td><td class="num">17.2x</td><td class="num">17.0x</td><td class="num">0.84x</td><td class="num">322.75</td><td class="num">18.74</td><td class="num">77.01B</td><td class="num">91.93B</td><td><a href="https://finance.yahoo.com/quote/FDX/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>20</td><td><b>Uber</b><br><span>UBER</span></td><td>叫車/外送/平台物流</td><td class="num">17.2x</td><td class="num">15.8x</td><td class="num">2.62x</td><td class="num">69.23</td><td class="num">4.03</td><td class="num">140.92B</td><td class="num">53.69B</td><td><a href="https://finance.yahoo.com/quote/UBER/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>21</td><td><b>UPS</b><br><span>UPS</span></td><td>快遞/物流</td><td class="num">17.0x</td><td class="num">13.1x</td><td class="num">1.01x</td><td class="num">105.16</td><td class="num">6.18</td><td class="num">89.39B</td><td class="num">88.32B</td><td><a href="https://finance.yahoo.com/quote/UPS/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>22</td><td><b>DHL Group</b><br><span>DHL.DE</span></td><td>快遞/物流</td><td class="num">16.6x</td><td class="num">13.9x</td><td class="num">0.69x</td><td class="num">51.14</td><td class="num">3.09</td><td class="num">57.24B</td><td class="num">83.04B</td><td><a href="https://finance.yahoo.com/quote/DHL.DE/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>23</td><td><b>嘉里大榮</b><br><span>2608.TW</span></td><td>宅配/物流</td><td class="num">15.4x</td><td class="num">13.6x</td><td class="num">1.10x</td><td class="num">30.40</td><td class="num">1.97</td><td class="num">14.20B</td><td class="num">12.89B</td><td><a href="https://finance.yahoo.com/quote/2608.TW/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>24</td><td><b>SG Holdings</b><br><span>9143.T</span></td><td>日本宅配/物流</td><td class="num">14.8x</td><td class="num">13.0x</td><td class="num">0.53x</td><td class="num">1,450.50</td><td class="num">98.16</td><td class="num">865.56B</td><td class="num">1.64T</td><td><a href="https://finance.yahoo.com/quote/9143.T/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>25</td><td><b>Matson</b><br><span>MATX</span></td><td>航運/物流</td><td class="num">14.4x</td><td class="num">12.8x</td><td class="num">1.77x</td><td class="num">194.67</td><td class="num">13.48</td><td class="num">5.89B</td><td class="num">3.32B</td><td><a href="https://finance.yahoo.com/quote/MATX/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>26</td><td><b>榮運</b><br><span>2607.TW</span></td><td>貨櫃/物流</td><td class="num">13.9x</td><td class="num">—</td><td class="num">1.60x</td><td class="num">49.40</td><td class="num">3.55</td><td class="num">26.36B</td><td class="num">16.47B</td><td><a href="https://finance.yahoo.com/quote/2607.TW/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>27</td><td><b>中菲行</b><br><span>5609.TWO</span></td><td>國際貨代</td><td class="num">10.5x</td><td class="num">—</td><td class="num">0.39x</td><td class="num">83.00</td><td class="num">7.94</td><td class="num">11.68B</td><td class="num">29.62B</td><td><a href="https://finance.yahoo.com/quote/5609.TWO/key-statistics/">Yahoo</a></td></tr>
+          <tr><td>28</td><td><b>台驊投控</b><br><span>2636.TW</span></td><td>國際貨代</td><td class="num">9.1x</td><td class="num">7.3x</td><td class="num">0.48x</td><td class="num">70.30</td><td class="num">7.74</td><td class="num">9.63B</td><td class="num">20.07B</td><td><a href="https://finance.yahoo.com/quote/2636.TW/key-statistics/">Yahoo</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>計算方法與注意事項</h2>
+    <div class="note">
+      <ul>
+        <li><b>P/E 公式：</b>最新股價 ÷ Trailing EPS。Excel 另保留 Yahoo 原始 trailingPE 供核對。</li>
+        <li><b>排除規則：</b>EPS 為負或資料缺漏者不列入 P/E 排名，避免產生無意義倍數。</li>
+        <li><b>佐證欄位：</b>Forward P/E 看未來一年預期、P/S 看營收定價、營業利潤率看商業模式品質。</li>
+        <li><b>異常值：</b>Nippon Express、Hapag-Lloyd 等高 P/E，應優先檢查一次性項目、景氣循環低檔或 EPS 暫時偏低。</li>
+        <li><b>正式使用前：</b>建議對前 10 名再用公司最新財報、IR 或年報交叉驗證。</li>
+      </ul>
+    </div>
+  </section>
+  <div class="footer">以上為公開資料整理，非投資建議。資料抓取時間：2026-06-10 22:49 CST。</div>
+</div>
+</body>
+</html>
